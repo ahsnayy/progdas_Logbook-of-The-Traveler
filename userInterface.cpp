@@ -27,7 +27,7 @@ int UserInterface::showMainMenu(const string& statusMessage) {
         cout << "==========================================\n";
     }
 
-    cout << "\n=== GENSHIN ACCOUNT MANAGER ===\n";
+    cout << "\n=== LOGBOOK OF THE TRAVELER ===\n";
     cout << "1. Add Account\n";
     cout << "2. Show All Accounts\n";
     cout << "3. Edit Account\n";
@@ -179,4 +179,5 @@ string UserInterface::getLineInput(const string& prompt) {
     cout << prompt;
     getline(cin, line);
     return line;
+
 }
